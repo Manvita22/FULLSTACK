@@ -1,0 +1,50 @@
+/* .outer{
+    height:200px;
+    width: 70px;
+    border:2px solid;
+    
+}
+.inner{
+    height:50px;
+    width:50px;
+    border:2px solid black;
+    margin:10px;
+    border-radius: 50%;
+}
+#red{
+    background-color: red;
+}
+#green{
+    background-color:green;
+}
+#yellow{
+    background-color:yellow;
+} */
+/* h2{
+    display: inline;
+} */
+/* div{
+    height:200px;
+    width:200px;
+    background-color: greenyellow;
+    border:2px solid black;
+    margin:20px;
+    display:inline-block;
+}  */
+.outer{
+    height:200px;
+    width:200px;
+    background-color: greenyellow;
+    border:2px solid black;
+    margin:50px;
+
+}
+.inner{
+    height:50px;
+    width:50px;
+    background-color: pink;
+    border:2px solid black;
+    margin-left:10%;
+    margin-top:10%;
+
+}

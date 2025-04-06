@@ -1,0 +1,68 @@
+#for cloning:
+        git clone link
+
+#ls= lists the files in the folder
+#pwd=shows the current directory
+#-a= flag used for seeing hidden files
+#cd= to change the directory
+#cd.. to go back tp the previous directory
+#git status= to check the status of all files(untracked(U),Modified(M),Staged(after adding and before committing))
+#mkdir: to make new folder using git
+#rmdir: to remove empty folders
+#rm:to remove files
+#rm -rf: all folders with force recursively
+#touch filename with extension to create new files from git
+
+#for add: 
+     git add filename
+                          ##we can add or commit together when a new file isnt added but the existing file was modified using the "git commit -am "message" 
+# for commit:      
+     git commit -m "some message"
+#for push:
+     git push origin main(show changes made on git also)
+ (or)git push -u origin main(setting the origin for once and all)
+
+
+#init : used to create a new repo through local system
+      git init
+
+#to add the origin from local system to git hub
+      git remote add origin link
+# to verify
+      git remote -v
+
+
+
+#GIT BRANCHES
+working at different locations(BRANCHES) and combine all into the main or master branch
+
+//commands
+# to check current branch
+      git branch
+# to rename branch
+      git branch -M main
+# to navigate branch
+      git checkout branch name
+# to create new branch
+      git checkout -b new branch name
+# to delete branch
+      git branch -d branch name(we cannot delete the branch we are currently in)
+#git push --set-upstream origin feature   to set an upstream when there are multiple branches
+#to merge branches
+      two ways:   git diff branch name (to compare)
+                  git merge branch name(2 branches)
+
+                  Create PR(Pull Request)
+#pull   to show changes made on local also
+        git pull origin main
+
+
+
+#to fix mistakes
+   --to unadd: git reset filename (or)git reset
+   --to uncommit: git reset HEAD~1(pointer pointing last commit)(for single commit)
+   git reset commit hash(shows extra changes)
+   git reset --hard commit hash(to remove extra changes also)
+
+#FORKING
+making a copy repo in our account

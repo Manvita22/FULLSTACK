@@ -1,0 +1,12 @@
+div{
+    height:200px;
+    width:200px;
+    background-color: rgba(255, 0, 149, 0.671);
+}
+
+/* alpha is for setting the color visibility 0-1*/
+/* opacity shows how much element can be visible  0-1*/
+#opacity{
+    background-color:#ffa511 ;
+    opacity:1;
+}

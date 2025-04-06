@@ -1,0 +1,46 @@
+.box{
+    height:100px;
+    width:300px;
+    background-color: pink;
+    animation-name:colorAnimate;
+    animation-duration:2s;
+    animation-timing-function: ease-in;
+    animation-delay:2s;
+    animation-iteration-count:5;
+    animation-direction:normal;
+    /*shorthand: name|duration|function|delay|count|direction*/
+
+}
+
+@keyframes widthAnimate{
+    from{
+        width:10px;
+        background-color: blue;
+    }
+    to{
+        width:400px;
+        background-color: brown;
+    }
+}
+
+@keyframes fontAnimation
+{
+    form {
+        font-size:20px;
+    }
+    to{
+        font-size:40px;
+    }
+}
+
+@keyframes colorAnimate {
+    0%{
+       border:2px black solid;
+    }
+    50%{
+        border:4px red dashed;
+    }
+    100%{
+         border:8px blue dotted;
+    }
+}

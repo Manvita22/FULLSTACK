@@ -1,0 +1,43 @@
+#container{
+    height:300px;
+    width:80%;
+    background-color:azure;
+    margin:10px auto;
+    border:2px solid black;
+    display:flex;     /*prevents overflow from the parent element*/
+    flex-direction:row;
+    justify-content: flex-start;                 /*along the main axis*/
+    /* flex-wrap:wrap-reverse;                 along cross-axis in reverse direction */
+    /* flex-wrap:wrap; */
+    /* align-items: flex-end; */
+    align-content:flex-start;                         /*along  the cross-axis*/
+    
+
+
+}
+#orange{
+    align-self:flex-start; 
+                  /*for individual element (more priority)*/
+    /*flex-basis:50px;*/     /* row -- change along  width || column -- height*/ 
+    /* flex-grow:3; */
+                 /*range of growth maintained by min and max width*/
+    /* max-width: 400px;min-width:100px; */
+
+    /* flex-shrink: 2; */
+    flex: 2 2 100px; 
+
+
+
+}
+h1{
+    text-align: center;
+}
+#container div{
+    height:30px;
+    width:250px;                /*after display flex is applied the width of elements is adjusted according to the container(if the width is large)*/
+    color:white;
+    text-align:center;
+    font-size:1.5em;
+    
+
+}

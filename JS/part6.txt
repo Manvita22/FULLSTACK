@@ -1,0 +1,22 @@
+global scope: used through out the file
+function scope:used only in the declared function
+(function scope > global scope due to specificity)
+block scope:limited to the block in which it was declared
+(block scope is not applicable on "var type")
+lexical scope: a variable can be accessed under nested functions
+but only after variable declaration or by hoisting(before variable defining)
+yet variables in the nested function cannot be used by the outer function
+(nested or inner functions have function scope that is it cannot be called outside the outer function)
+
+FUNCTION EXPRESSIONS:
+function inside a variable
+eg: let sum=function(a,b){
+    return a+b;
+}
+it is a nameless function , we use variable name to call the function
+they can be reassigned or value can be changed
+
+HIGHER ORDER FUNCTIONS:
+functions which take one or more functions as arguments or returns a function 
+
+(factory function: a functions that defines new functions)

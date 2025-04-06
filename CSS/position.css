@@ -1,0 +1,36 @@
+#static{
+     background-color: yellow;
+     position: static;
+     top:100px;
+     left: 100px;
+
+     /* position will be default top left bottom right will have any effect */
+
+}
+div{
+    height:100px;
+    width:100px;
+    background-color: green;
+    text-align: center;
+    border:3px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+#Relative{
+    background-color: yellow;
+     position: relative;
+     top:100px;                    /*space is created for the element in the document*/
+     left: 100px;
+}
+#Absolute{
+    background-color: yellow;
+     position: absolute;
+      top:100px;                   /* relative to the parent and no space is created in the document */
+     left: 100px;
+}
+#Fixed{
+    background-color: yellow;
+     position: fixed;
+     top:100px;                   /*position of the element is fixed and relative to parent*/
+     left: 100px;
+}

@@ -1,0 +1,12 @@
+div{
+    height:100px;
+    width:100px;
+    /* border:2px black solid; */
+    background-color: pink;
+    box-shadow: 2px 2px 10px red;
+    margin:10px auto;
+    /* background-image: url('color1.png');
+    background-size: auto; */
+}
+
+/* box-shadow: x-offset| y-offset| blur radius|color of shadow */
